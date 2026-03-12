@@ -1,0 +1,316 @@
+2026-03-11 17:02:29,182 [ERROR] Not found: F:\part_CT\subset_A\part_CT\ImageSet\DICOM
+2026-03-11 17:02:29,183 [ERROR] Check ECPC_DIR in the config section at the top of this script.
+2026-03-11 17:04:47,494 [INFO] ECPC source     : F:\part_CT
+2026-03-11 17:04:47,495 [INFO] Output          : F:\endometrial_cancer\nifti_output\CT
+2026-03-11 17:04:47,496 [INFO] Image patients  : 155
+2026-03-11 17:04:47,496 [INFO] Label patients  : 155
+2026-03-11 17:04:48,237 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:48,287 [INFO]   Mask nonzero voxels: 6894
+2026-03-11 17:04:48,982 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:48,993 [INFO]   Mask nonzero voxels: 1189
+2026-03-11 17:04:49,622 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:49,650 [INFO]   Mask nonzero voxels: 35869
+2026-03-11 17:04:50,415 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:50,430 [INFO]   Mask nonzero voxels: 7771
+2026-03-11 17:04:51,109 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:51,125 [INFO]   Mask nonzero voxels: 972
+2026-03-11 17:04:51,904 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:51,931 [INFO]   Mask nonzero voxels: 7847
+2026-03-11 17:04:52,700 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:52,713 [INFO]   Mask nonzero voxels: 1390
+2026-03-11 17:04:53,139 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:53,149 [INFO]   Mask nonzero voxels: 1122
+2026-03-11 17:04:53,415 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:53,421 [INFO]   Mask nonzero voxels: 300
+2026-03-11 17:04:54,261 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:54,305 [INFO]   Mask nonzero voxels: 28438
+2026-03-11 17:04:55,340 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:55,355 [INFO]   Mask nonzero voxels: 2434
+2026-03-11 17:04:55,883 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:55,899 [INFO]   Mask nonzero voxels: 3827
+2026-03-11 17:04:57,039 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:57,089 [INFO]   Mask nonzero voxels: 21766
+2026-03-11 17:04:58,118 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:58,127 [INFO]   Mask nonzero voxels: 1861
+2026-03-11 17:04:58,466 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:58,475 [INFO]   Mask nonzero voxels: 2853
+2026-03-11 17:04:59,109 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:04:59,141 [INFO]   Mask nonzero voxels: 13438
+2026-03-11 17:05:00,084 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:00,108 [INFO]   Mask nonzero voxels: 9957
+2026-03-11 17:05:00,851 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:00,874 [INFO]   Mask nonzero voxels: 12809
+2026-03-11 17:05:01,736 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:01,762 [INFO]   Mask nonzero voxels: 12194
+2026-03-11 17:05:02,625 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:02,655 [INFO]   Mask nonzero voxels: 11557
+2026-03-11 17:05:03,212 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:03,219 [INFO]   Mask nonzero voxels: 409
+2026-03-11 17:05:03,469 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:03,479 [INFO]   Mask nonzero voxels: 832
+2026-03-11 17:05:04,022 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:04,050 [INFO]   Mask nonzero voxels: 26336
+2026-03-11 17:05:04,709 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:04,718 [INFO]   Mask nonzero voxels: 2731
+2026-03-11 17:05:04,971 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:04,976 [INFO]   Mask nonzero voxels: 56
+2026-03-11 17:05:05,295 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:05,315 [INFO]   Mask nonzero voxels: 16960
+2026-03-11 17:05:05,786 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:05,799 [INFO]   Mask nonzero voxels: 1121
+2026-03-11 17:05:06,340 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:06,362 [INFO]   Mask nonzero voxels: 8263
+2026-03-11 17:05:06,933 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:06,943 [INFO]   Mask nonzero voxels: 1527
+2026-03-11 17:05:07,366 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:07,388 [INFO]   Mask nonzero voxels: 2379
+2026-03-11 17:05:08,195 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:08,223 [INFO]   Mask nonzero voxels: 30689
+2026-03-11 17:05:08,997 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:09,016 [INFO]   Mask nonzero voxels: 6390
+2026-03-11 17:05:09,398 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:09,407 [INFO]   Mask nonzero voxels: 146
+2026-03-11 17:05:09,888 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:09,913 [INFO]   Mask nonzero voxels: 9352
+2026-03-11 17:05:10,629 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:10,652 [INFO]   Mask nonzero voxels: 4328
+2026-03-11 17:05:11,246 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:11,262 [INFO]   Mask nonzero voxels: 1560
+2026-03-11 17:05:11,721 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:11,738 [INFO]   Mask nonzero voxels: 541
+2026-03-11 17:05:12,119 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:12,127 [INFO]   Mask nonzero voxels: 1115
+2026-03-11 17:05:12,428 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:12,438 [INFO]   Mask nonzero voxels: 3264
+2026-03-11 17:05:12,787 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:12,796 [INFO]   Mask nonzero voxels: 483
+2026-03-11 17:05:13,162 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:13,177 [INFO]   Mask nonzero voxels: 2373
+2026-03-11 17:05:13,663 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:13,680 [INFO]   Mask nonzero voxels: 6411
+2026-03-11 17:05:14,080 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:14,084 [INFO]   Mask nonzero voxels: 206
+2026-03-11 17:05:14,379 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:14,397 [INFO]   Mask nonzero voxels: 4256
+2026-03-11 17:05:14,879 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:14,892 [INFO]   Mask nonzero voxels: 1732
+2026-03-11 17:05:15,273 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:15,282 [INFO]   Mask nonzero voxels: 628
+2026-03-11 17:05:16,072 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:16,111 [INFO]   Mask nonzero voxels: 54193
+2026-03-11 17:05:17,250 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:17,274 [INFO]   Mask nonzero voxels: 10434
+2026-03-11 17:05:18,157 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:18,185 [INFO]   Mask nonzero voxels: 21896
+2026-03-11 17:05:18,980 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:19,004 [INFO]   Mask nonzero voxels: 6043
+2026-03-11 17:05:19,985 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:20,016 [INFO]   Mask nonzero voxels: 48891
+2026-03-11 17:05:21,126 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:21,162 [INFO]   Mask nonzero voxels: 36264
+2026-03-11 17:05:22,227 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:22,254 [INFO]   Mask nonzero voxels: 17896
+2026-03-11 17:05:23,096 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:23,118 [INFO]   Mask nonzero voxels: 8131
+2026-03-11 17:05:23,783 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:23,804 [INFO]   Mask nonzero voxels: 3128
+2026-03-11 17:05:24,470 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:24,494 [INFO]   Mask nonzero voxels: 10587
+2026-03-11 17:05:25,364 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:25,395 [INFO]   Mask nonzero voxels: 14659
+2026-03-11 17:05:26,162 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:26,180 [INFO]   Mask nonzero voxels: 4769
+2026-03-11 17:05:26,561 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:26,570 [INFO]   Mask nonzero voxels: 607
+2026-03-11 17:05:26,763 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:26,769 [INFO]   Mask nonzero voxels: 422
+2026-03-11 17:05:27,169 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:27,191 [INFO]   Mask nonzero voxels: 13018
+2026-03-11 17:05:27,806 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:27,822 [INFO]   Mask nonzero voxels: 2320
+2026-03-11 17:05:28,579 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:28,632 [INFO]   Mask nonzero voxels: 24048
+2026-03-11 17:05:29,601 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:29,634 [INFO]   Mask nonzero voxels: 25215
+2026-03-11 17:05:30,571 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:30,592 [INFO]   Mask nonzero voxels: 8233
+2026-03-11 17:05:31,318 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:31,341 [INFO]   Mask nonzero voxels: 5494
+2026-03-11 17:05:31,942 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:31,951 [INFO]   Mask nonzero voxels: 1081
+2026-03-11 17:05:32,446 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:32,470 [INFO]   Mask nonzero voxels: 11546
+2026-03-11 17:05:33,207 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:33,223 [INFO]   Mask nonzero voxels: 7072
+2026-03-11 17:05:33,720 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:33,732 [INFO]   Mask nonzero voxels: 1897
+2026-03-11 17:05:34,040 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:34,047 [INFO]   Mask nonzero voxels: 569
+2026-03-11 17:05:34,370 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:34,386 [INFO]   Mask nonzero voxels: 11380
+2026-03-11 17:05:34,873 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:34,885 [INFO]   Mask nonzero voxels: 9026
+2026-03-11 17:05:35,353 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:35,369 [INFO]   Mask nonzero voxels: 6014
+2026-03-11 17:05:35,861 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:35,872 [INFO]   Mask nonzero voxels: 3754
+2026-03-11 17:05:36,207 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:36,215 [INFO]   Mask nonzero voxels: 476
+2026-03-11 17:05:36,473 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:36,483 [INFO]   Mask nonzero voxels: 1200
+2026-03-11 17:05:36,761 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:36,769 [ERROR]   Mask is empty — skipping patient 078
+2026-03-11 17:05:37,293 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:37,329 [INFO]   Mask nonzero voxels: 39347
+2026-03-11 17:05:38,152 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:38,166 [INFO]   Mask nonzero voxels: 1303
+2026-03-11 17:05:38,726 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:38,751 [INFO]   Mask nonzero voxels: 12936
+2026-03-11 17:05:39,558 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:39,581 [INFO]   Mask nonzero voxels: 8315
+2026-03-11 17:05:40,522 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:40,552 [INFO]   Mask nonzero voxels: 10537
+2026-03-11 17:05:41,381 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:41,398 [INFO]   Mask nonzero voxels: 4341
+2026-03-11 17:05:41,847 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:41,857 [INFO]   Mask nonzero voxels: 1423
+2026-03-11 17:05:42,233 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:42,249 [INFO]   Mask nonzero voxels: 5742
+2026-03-11 17:05:42,783 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:42,799 [INFO]   Mask nonzero voxels: 5018
+2026-03-11 17:05:43,615 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:43,654 [INFO]   Mask nonzero voxels: 13563
+2026-03-11 17:05:44,491 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:44,500 [INFO]   Mask nonzero voxels: 1906
+2026-03-11 17:05:45,098 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:45,126 [INFO]   Mask nonzero voxels: 18851
+2026-03-11 17:05:45,923 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:45,939 [INFO]   Mask nonzero voxels: 7786
+2026-03-11 17:05:46,573 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:46,599 [INFO]   Mask nonzero voxels: 8736
+2026-03-11 17:05:47,328 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:47,344 [INFO]   Mask nonzero voxels: 3745
+2026-03-11 17:05:48,088 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:48,110 [INFO]   Mask nonzero voxels: 9902
+2026-03-11 17:05:49,109 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:49,153 [INFO]   Mask nonzero voxels: 14496
+2026-03-11 17:05:50,282 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:50,306 [INFO]   Mask nonzero voxels: 4479
+2026-03-11 17:05:51,220 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:51,253 [INFO]   Mask nonzero voxels: 19049
+2026-03-11 17:05:51,923 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:51,929 [INFO]   Mask nonzero voxels: 720
+2026-03-11 17:05:52,197 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:52,207 [INFO]   Mask nonzero voxels: 2955
+2026-03-11 17:05:52,854 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:52,884 [INFO]   Mask nonzero voxels: 22820
+2026-03-11 17:05:53,505 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:53,513 [INFO]   Mask nonzero voxels: 878
+2026-03-11 17:05:54,117 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:54,151 [INFO]   Mask nonzero voxels: 14457
+2026-03-11 17:05:54,953 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:54,967 [INFO]   Mask nonzero voxels: 3897
+2026-03-11 17:05:55,427 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:55,444 [INFO]   Mask nonzero voxels: 6900
+2026-03-11 17:05:55,821 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:55,829 [INFO]   Mask nonzero voxels: 421
+2026-03-11 17:05:56,043 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:56,052 [INFO]   Mask nonzero voxels: 928
+2026-03-11 17:05:56,568 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:56,593 [INFO]   Mask nonzero voxels: 6905
+2026-03-11 17:05:57,413 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:57,437 [INFO]   Mask nonzero voxels: 8767
+2026-03-11 17:05:58,349 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:58,369 [INFO]   Mask nonzero voxels: 10958
+2026-03-11 17:05:58,905 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:58,914 [INFO]   Mask nonzero voxels: 2850
+2026-03-11 17:05:59,429 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:05:59,454 [INFO]   Mask nonzero voxels: 17218
+2026-03-11 17:06:00,233 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:00,256 [INFO]   Mask nonzero voxels: 25506
+2026-03-11 17:06:00,939 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:00,955 [INFO]   Mask nonzero voxels: 5711
+2026-03-11 17:06:01,396 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:01,410 [INFO]   Mask nonzero voxels: 6728
+2026-03-11 17:06:02,236 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:02,253 [INFO]   Mask nonzero voxels: 10562
+2026-03-11 17:06:02,743 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:02,759 [INFO]   Mask nonzero voxels: 13453
+2026-03-11 17:06:03,549 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:03,566 [INFO]   Mask nonzero voxels: 5792
+2026-03-11 17:06:04,138 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:04,147 [INFO]   Mask nonzero voxels: 3193
+2026-03-11 17:06:04,797 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:04,813 [INFO]   Mask nonzero voxels: 29478
+2026-03-11 17:06:05,382 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:05,397 [INFO]   Mask nonzero voxels: 7280
+2026-03-11 17:06:05,877 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:05,900 [INFO]   Mask nonzero voxels: 2039
+2026-03-11 17:06:06,354 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:06,366 [INFO]   Mask nonzero voxels: 7568
+2026-03-11 17:06:06,903 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:06,919 [INFO]   Mask nonzero voxels: 14845
+2026-03-11 17:06:07,716 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:07,743 [INFO]   Mask nonzero voxels: 6024
+2026-03-11 17:06:08,435 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:08,451 [INFO]   Mask nonzero voxels: 9038
+2026-03-11 17:06:09,176 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:09,192 [INFO]   Mask nonzero voxels: 8511
+2026-03-11 17:06:09,815 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:09,837 [INFO]   Mask nonzero voxels: 6602
+2026-03-11 17:06:10,450 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:10,459 [INFO]   Mask nonzero voxels: 5549
+2026-03-11 17:06:10,859 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:10,874 [INFO]   Mask nonzero voxels: 8031
+2026-03-11 17:06:11,999 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:12,041 [INFO]   Mask nonzero voxels: 75660
+2026-03-11 17:06:13,346 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:13,369 [INFO]   Mask nonzero voxels: 6933
+2026-03-11 17:06:13,943 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:13,955 [INFO]   Mask nonzero voxels: 3162
+2026-03-11 17:06:14,725 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:14,741 [INFO]   Mask nonzero voxels: 5811
+2026-03-11 17:06:15,200 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:15,217 [INFO]   Mask nonzero voxels: 3282
+2026-03-11 17:06:15,746 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:15,757 [INFO]   Mask nonzero voxels: 3716
+2026-03-11 17:06:16,155 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:16,167 [INFO]   Mask nonzero voxels: 3597
+2026-03-11 17:06:16,808 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:16,836 [INFO]   Mask nonzero voxels: 16636
+2026-03-11 17:06:17,530 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:17,551 [INFO]   Mask nonzero voxels: 6830
+2026-03-11 17:06:18,434 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:18,464 [INFO]   Mask nonzero voxels: 23191
+2026-03-11 17:06:19,517 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:19,553 [INFO]   Mask nonzero voxels: 19006
+2026-03-11 17:06:20,260 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:20,269 [INFO]   Mask nonzero voxels: 1061
+2026-03-11 17:06:20,783 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:20,807 [INFO]   Mask nonzero voxels: 11244
+2026-03-11 17:06:21,354 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:21,361 [INFO]   Mask nonzero voxels: 775
+2026-03-11 17:06:21,713 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:21,729 [INFO]   Mask nonzero voxels: 4783
+2026-03-11 17:06:22,250 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:22,256 [ERROR]   Mask is empty — skipping patient 145
+2026-03-11 17:06:22,602 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:22,627 [INFO]   Mask nonzero voxels: 7844
+2026-03-11 17:06:23,240 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:23,252 [INFO]   Mask nonzero voxels: 3211
+2026-03-11 17:06:23,578 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:23,586 [INFO]   Mask nonzero voxels: 510
+2026-03-11 17:06:23,810 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:23,821 [INFO]   Mask nonzero voxels: 2069
+2026-03-11 17:06:24,140 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:24,156 [INFO]   Mask nonzero voxels: 4692
+2026-03-11 17:06:24,730 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:24,750 [INFO]   Mask nonzero voxels: 11749
+2026-03-11 17:06:25,188 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:25,196 [INFO]   Mask nonzero voxels: 759
+2026-03-11 17:06:25,478 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:25,490 [INFO]   Mask nonzero voxels: 5508
+2026-03-11 17:06:25,955 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:25,974 [INFO]   Mask nonzero voxels: 3912
+2026-03-11 17:06:26,634 [INFO]   Resampling mask to match CT geometry
+2026-03-11 17:06:26,659 [INFO]   Mask nonzero voxels: 10135

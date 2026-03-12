@@ -1,0 +1,112 @@
+# docker-compose.yml
+# ===========================================================
+# Server shared data path: /mnt/data/shared-data/endometrial-cancer/
+# This is mounted into /data/ inside every container.
+#
+# Usage:
+#   docker compose up nnunet_train
+#   docker compose run --rm classifier_train
+#   docker compose up tensorboard
+# ===========================================================
+
+version: "3.9"
+
+# ── Shared volume definition ─────────────────────────────────────────────────
+# All services mount from the same server directory.
+# Sub-folders are expected to exist already after data transfer.
+x-data-base: &data-base
+  /mnt/data/shared-data/endometrial-cancer
+
+services:
+
+  # ── nnU-Net segmentation training ─────────────────────────────────────────
+  nnunet_train:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: endometrial_pipeline:latest
+    container_name: nnunet_train
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - nnUNet_raw=/data/nnunet_raw
+      - nnUNet_preprocessed=/data/nnunet_preprocessed
+      - nnUNet_results=/data/nnunet_results
+      - nnUNet_n_proc_DA=4
+    volumes:
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_raw:/data/nnunet_raw
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_preprocessed:/data/nnunet_preprocessed
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_results:/data/nnunet_results
+      - /mnt/data/shared-data/endometrial-cancer/nifti_output:/data/nifti_output
+      - ../scripts:/workspace/scripts   # live-edit scripts without rebuilding
+    shm_size: "16gb"
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    command: /workspace/scripts/05_train_nnunet.sh
+
+  # ── nnU-Net inference — generate pseudo-masks for unmasked cases ──────────
+  nnunet_inference:
+    image: endometrial_pipeline:latest
+    container_name: nnunet_inference
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - nnUNet_raw=/data/nnunet_raw
+      - nnUNet_preprocessed=/data/nnunet_preprocessed
+      - nnUNet_results=/data/nnunet_results
+    volumes:
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_raw:/data/nnunet_raw
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_preprocessed:/data/nnunet_preprocessed
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_results:/data/nnunet_results
+      - /mnt/data/shared-data/endometrial-cancer/nifti_output:/data/nifti_output
+      - /mnt/data/shared-data/endometrial-cancer/classification:/data/classification
+      - /mnt/data/shared-data/endometrial-cancer/inference:/data/inference
+      - ../scripts:/workspace/scripts
+    shm_size: "4gb"
+    command: >
+      bash -c "
+        python /workspace/scripts/09_prepare_inference.py &&
+        bash /workspace/scripts/09_run_inference.sh &&
+        python /workspace/scripts/09_update_csv.py
+      "
+
+  # ── 3D classification model training ──────────────────────────────────────
+  classifier_train:
+    image: endometrial_pipeline:latest
+    container_name: classifier_train
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - /mnt/data/shared-data/endometrial-cancer/nifti_output:/data/nifti_output
+      - /mnt/data/shared-data/endometrial-cancer/classification:/data/classification
+      - ../scripts:/workspace/scripts
+    shm_size: "4gb"
+    # Use combined_labels_with_masks.csv if pseudo-masks have been generated (Script 09),
+    # otherwise use combined_labels_simple.csv from Script 08.
+    command: >
+      bash -c "
+        CSV=/data/classification/combined_labels_with_masks.csv;
+        [ -f \"$$CSV\" ] || CSV=/data/classification/combined_labels_simple.csv;
+        [ -f \"$$CSV\" ] || CSV=/data/classification/cptac_mask/labels_simple.csv;
+        echo \"Using labels CSV: $$CSV\";
+        python /workspace/scripts/04_train_classifier.py
+          --labels_csv $$CSV
+          --output_dir /data/classification/model_output
+          --crop_margin 20
+          --epochs 50
+      "
+
+  # ── TensorBoard monitoring ─────────────────────────────────────────────────
+  tensorboard:
+    image: tensorflow/tensorflow:latest
+    container_name: tensorboard
+    ports:
+      - "6006:6006"
+    volumes:
+      - /mnt/data/shared-data/endometrial-cancer/nnunet_results:/data/nnunet_results
+      - /mnt/data/shared-data/endometrial-cancer/classification:/data/classification
+    command: >
+      tensorboard --logdir /data --host 0.0.0.0 --port 6006

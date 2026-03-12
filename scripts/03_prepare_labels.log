@@ -1,0 +1,38 @@
+2026-03-09 17:49:57,663 [INFO] =================================================================
+2026-03-09 17:49:57,664 [INFO]   CPTAC-UCEC Label Preparation (v3)
+2026-03-09 17:49:57,664 [INFO] =================================================================
+2026-03-09 17:49:57,666 [INFO] Loading clinical data from: F:\endometrial_cancer\data\clinical.tsv
+2026-03-09 17:49:57,804 [INFO]   Total rows: 2288 | Unique patients: 1683
+2026-03-09 17:49:57,805 [INFO]   Projects in file: ['CPTAC-3']
+2026-03-09 17:49:57,824 [INFO]   Uterine patients: 241 unique patients (302 rows before dedup)
+2026-03-09 17:49:57,844 [INFO]   After dedup: 241 patients
+2026-03-09 17:49:57,860 [INFO] 
+  Raw grade distribution:
+2026-03-09 17:49:57,861 [INFO]     'G2': 108 -> G2
+2026-03-09 17:49:57,862 [INFO]     'G1': 72 -> G1
+2026-03-09 17:49:57,862 [INFO]     'G3': 55 -> G3
+2026-03-09 17:49:57,863 [INFO]     'Unknown': 5 -> None
+2026-03-09 17:49:57,863 [INFO]     'High Grade': 1 -> G3
+2026-03-09 17:49:57,879 [INFO] 
+Total uterine patients with valid grade: 236
+2026-03-09 17:49:57,881 [INFO] Grade distribution:
+grade
+G2    108
+G1     72
+G3     56
+2026-03-09 17:49:57,887 [WARNING] 
+Unmapped grade strings (add to GRADE_MAP if needed):
+2026-03-09 17:49:57,890 [WARNING] raw_grade
+Unknown    5
+2026-03-09 17:49:57,891 [INFO] 
+Merging with nnU-Net split log...
+2026-03-09 17:49:57,915 [INFO] 
+Split log: 65 cases, columns: ['patient_id', 'patient_key', 'folder_modality', 'true_modality', 'image_path', 'mask_path', 'mask_voxels', 'nnunet_id', 'split', 'nifti_path']
+2026-03-09 17:49:57,926 [INFO] 
+  Imaging patients with grade:    61 / 65
+2026-03-09 17:49:57,927 [INFO]   Imaging patients WITHOUT grade: 4
+2026-03-09 17:49:57,930 [WARNING]   Missing grade labels for: ['C3N-01763', 'C3L-00962', 'C3N-03044', 'C3N-01001']
+2026-03-09 17:49:57,931 [WARNING]   These patients will be EXCLUDED from classifier training
+2026-03-09 17:49:57,946 [INFO] 
+Full labels saved -> F:\endometrial_cancer\classification\classification_labels.csv
+2026-03-09 17:49:57,959 [INFO] Simple labels saved  -> F:\endometrial_cancer\classification\labels_simple.csv
